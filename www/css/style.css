@@ -1,4 +1,7 @@
 /* Empty. Add your own CSS if you like */
+html{
+  overflow-y:hidden;
+}
 .user-profile{
 
   margin-left: -10px;
