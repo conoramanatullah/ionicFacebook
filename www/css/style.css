@@ -1,0 +1,150 @@
+/* Empty. Add your own CSS if you like */
+.user-profile{
+
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 100vw;
+  height: 50vh;
+  background: rgba(9,74,187,0.8);
+
+  z-index:10;
+}
+.user-profile-content{
+  text-align: center;
+}
+.user-profile-image{
+
+}
+
+.user-picture{
+  margin-top: 8%;
+  width: 40vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  z-index: 1;
+
+}
+.user-name{
+  color: white;
+  font-size: 1.5em;
+}
+.user-active{
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width:18px;
+  height: 18px;
+  background-color: #00FF00;
+  border-radius: 50%;
+  margin-top: -18px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+}
+.page-content{
+  background-color: #EDEDED;
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+}
+.profile-icons{
+  margin-right: 8px;
+  margin-left: 30px;
+  color: white;
+  font-size: 1.7em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
+
+}
+.profile-icons-text{
+  margin-right: 8px;
+  color: white;
+  font-size: .9em;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 100%;
+
+
+}
+.profile-actions{
+  margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 230px;
+  height: 30px;
+
+}
+
+
+.profile-secondary{
+  width: 100%;
+  height: auto;
+  display: inline;
+}
+
+.icon-outline{
+
+}
+
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+
+.card{
+  border-radius: 6px;
+}
+
+
+
+.clearfix {
+  overflow: auto;
+}
+
+
+
+
+
+
+.leftMenu{
+  text-align: center;
+  background: rgba(9,74,190,0.8);
+}
+.leftMenuItem{
+  margin-top:40px;
+  margin-bottom: 0px;
+  color:white;
+  font-size: 3.5em;
+}
+.menuText{
+  font-size: 1.2em;
+  color:white;
+}
+.scroll{
+  padding:0px;
+  margin-top: -3px;
+}
