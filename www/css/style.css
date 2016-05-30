@@ -125,11 +125,6 @@
   overflow: auto;
 }
 
-
-
-
-
-
 .leftMenu{
   text-align: center;
   background: rgba(9,74,190,0.8);
@@ -147,4 +142,8 @@
 .scroll{
   padding:0px;
   margin-top: -3px;
+}
+
+.menu-item:active{
+  background: rgba(9,74,190,0.8);
 }
