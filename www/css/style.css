@@ -5,12 +5,15 @@ html{
 body{
   overflow-y:hidden;
 }
+a{
+  text-decoration: none;
+}
 .user-profile{
 
   margin-left: -10px;
   margin-top: -10px;
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
   background: rgba(9,74,187,0.8);
 
   z-index:10;
@@ -21,6 +24,9 @@ body{
 }
 .user-profile-image{
 
+}
+.user-info{
+  color: grey;
 }
 
 .user-picture{
@@ -33,9 +39,33 @@ body{
   z-index: 1;
 
 }
+.user-picture-small{
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 15vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  z-index: 1;
+
+}
 .user-name{
   color: white;
   font-size: 1.5em;
+}
+.username{
+  margin-bottom: 3%;
+  padding: 5%;
+  margin-left: 50px;
+  height: 100%;
+  color:rgba(9,74,187,0.8);
+
+}
+.timestamp{
+  font-size: .8em;
+  color: grey;
 }
 .user-active{
   position: fixed;
@@ -133,6 +163,8 @@ body{
 }
 
 .leftMenu{
+  -webkit-overflow-scrolling: touch;
+  overflow:auto;
   text-align: center;
   background: rgba(9,74,190,0.8);
 }
@@ -167,8 +199,57 @@ body{
     width: 30vh;
     margin-top: 2%;
   }
+  .user-picture-small{
+    width: 15vh;
+  }
+
+  .username{
+    margin-bottom: 0;
+  }
   .user-profile{
-    height: 75vh;
+    height: 70vh;
+  }
+
+
+}
+@media only screen and (min-width : 414px) {
+/* Styles */
+  .user-picture{
+    width: 30vh;
+    margin-top: 10%;
+  }
+  .user-profile{
+    height: 60vh;
+  }
+
+  .user-picture-small{
+    width: 7vh;
+  }
+
+}
+@media only screen and (min-width : 736px) {
+/* Styles */
+  .user-picture{
+    width: 30vh;
+    margin-top: 10%;
+  }
+  .user-profile{
+    height: 60vh;
+  }
+
+  .user-picture-small{
+    width: 15vh;
+  }
+
+}
+@media only screen and (min-width : 436px) {
+/* Styles */
+  .user-picture{
+    width: 30vh;
+    margin-top: 2%;
+  }
+  .user-profile{
+    height: 70vh;
   }
 
 
