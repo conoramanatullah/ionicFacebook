@@ -60,7 +60,7 @@ a{
 .username{
   margin-bottom: 3%;
   padding: 5%;
-  margin-left: 50px;
+  margin-left: 15%;
   height: 100%;
   color:rgba(9,74,187,0.8);
 
@@ -172,6 +172,13 @@ a{
   width: 100%;
   height: auto;
   display: inline;
+}
+.profile-navigation{
+  color:white;
+  margin: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  word-spacing: 15px;
 }
 
 .icon-outline{
