@@ -14,8 +14,10 @@ a{
   margin-top: -10px;
   width: 100vw;
   height: ;
-  background: rgba(9,74,187,0.8);
-
+  /*background: rgba(9,74,187,0.8);*/
+  background-image: url("http://i.imgur.com/ZZ8mcHi.png?1");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   z-index:10;
 }
 .user-profile-content{
